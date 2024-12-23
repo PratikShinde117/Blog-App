@@ -1,0 +1,141 @@
+body {
+    background: #222;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  /* .container{
+   
+  } */
+  main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+ 
+  }
+
+  ul{
+    display: flex;
+   
+    flex-direction: row;
+    list-style: none;
+    padding-inline: 12px;
+    gap: 20px;
+  }
+  button{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 136, 0, 0.806);
+    cursor: pointer;
+  }
+  h1{
+    font-size: 50px;
+  }
+  footer{
+    position: absolute;
+    top: 92%;
+    left: 2%;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .title{
+    height: 27px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    border: 0.5px solid white;
+    font-family: 'Ubuntu',serif;
+    background-color: rgba(255, 255, 255, 0.037);
+    color: white;
+    border-radius: 5px;
+  }
+  .btn{
+    margin-top: 12px;
+    color: white;
+  }
+  .content{
+    font-size: 15px;
+    font-family: 'Ubuntu',serif;
+    background-color: rgba(255, 255, 255, 0.037);
+    color: white;
+
+  }
+  textarea {
+    width: 96%;
+    height: 300px; 
+    padding: 10px; 
+    padding-left: 20px; 
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical; 
+   
+  }
+  .btn1{
+    margin-top: 15px;
+    padding: 12px;
+    padding-inline: 20px;
+    font-family: 'Ubuntu' , serif;
+    font-size: 18px;
+  }
+  .view{
+    color: white;
+    margin-top: 15px;
+  }
+  .ul{
+    display: flex;
+    gap: 50px;
+    overflow-x: hidden;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .view1{
+    margin-top: 12px;
+    color: white;
+  }
+
+  .create{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 136, 0, 0.806);
+    cursor: pointer;
+    padding-inline: 20px;
+    box-shadow: 5px 5px 10px #bebebe2f, -5px -5px 10px #ffffff3b;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Ubuntu' , serif;
+  }
+  .li{
+    border: 0.5px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 20vw;
+    overflow: hidden;
+    background-color:rgba(255, 255, 255, 0.037);
+   
+  }
+  
+  .img{
+    position: absolute;
+    left: 93%;
+    top: 4%;
+    cursor: pointer;
+  }

@@ -56,6 +56,18 @@ app.post("/update/:id" , (req , res) => {
     }
 });
 
+app.post("/delete/:id" , (req , res) => {
+    let id = parseInt(req.params.id);
+    let searchInd = blogs.findIndex((blog) => blog.id === id);
+    if(searchInd > -1){
+        blogs.splice(searchInd , 1);
+        res.redirect("/view")
+    }
+    else{
+        res.status(404).json("error");
+    }
+})
+
 
 app.listen(port , () => {
     console.log(`Listening at ${port}`);

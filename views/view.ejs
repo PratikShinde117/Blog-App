@@ -20,7 +20,10 @@
                 <p> <%= blog.content %> </p>
                 <small> <%= blog.date %> </small>
                 <br>
-                <a href="/update/<%= blog.id %>"> <button class="btn1">Edit</button></a>
+                <a href="/update/<%= blog.id %>"> <button class="btn1">Edit</button></a> 
+                <form action="/delete/<%= blog.id %>" method="POST" style="display: inline;">
+                    <button type="submit">Delete</button>
+                </form>
             </li>
        <% }); %>  
     </ul>
